@@ -541,7 +541,7 @@ export default function BirthdayInvitation() {
                 <MapPin className="w-6 h-6 text-blue-500 flex-shrink-0 mt-1" />
                 <div>
                   <p className="font-semibold text-gray-800">Lokasi</p>
-                  <p className="text-gray-600">Rumahku</p>
+                  <p className="text-gray-600">Tempat Rahasia</p>
                 </div>
               </div>
 
