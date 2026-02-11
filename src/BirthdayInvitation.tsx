@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
 import { Heart, Sparkles, Gift, MapPin, Clock, Calendar } from 'lucide-react';
+import birthdayImage from './assets/image.png';
 
 // Type definitions
 interface Balloon {
@@ -289,7 +290,7 @@ export default function BirthdayInvitation() {
                     </div>
 
                     <img
-                      src="src\assets\image.png"
+                      src={birthdayImage}
                       alt="Our Photo"
                       className="w-full h-full object-cover"
                     />
